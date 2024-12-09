@@ -4,7 +4,7 @@ Converting mp4 videos to mp3 in a microservices architecture.
 ## Architecture
 
 <p align="center">
-  <img src="./Project documentation/ProjectArchitecture.png" width="600" title="Architecture" alt="Architecture">
+  <img src="./Cluster & Architecture Snapshots/ProjectArchitecture.png" width="600" title="Architecture" alt="Architecture">
   </p>
 
 ## Deploying a Python-based Microservice Application on AWS EKS
@@ -65,7 +65,7 @@ Follow these steps to deploy your microservice application:
    - After creating it will look like this:
 
    <p align="center">
-  <img src="./Project documentation/ekscluster_role.png" width="600" title="ekscluster_role" alt="ekscluster_role">
+  <img src="./Cluster & Architecture Snapshots/ekscluster_role.png" width="600" title="ekscluster_role" alt="ekscluster_role">
   </p>
 
    - Please attach `AmazonEKS_CNI_Policy` explicitly if it is not attached by default
@@ -78,7 +78,7 @@ Follow these steps to deploy your microservice application:
    - Your AmazonEKSNodeRole will look like this: 
 
 <p align="center">
-  <img src="./Project documentation/node_iam.png" width="600" title="Node_IAM" alt="Node_IAM">
+  <img src="./Cluster & Architecture Snapshots/node_iam.png" width="600" title="Node_IAM" alt="Node_IAM">
   </p>
 
 4. **Open EKS Dashboard:**
@@ -110,7 +110,7 @@ Follow these steps to deploy your microservice application:
 **NOTE:** Ensure that all the necessary ports are open in the node security group.
 
 <p align="center">
-  <img src="./Project documentation/inbound_rules_sg.png" width="600" title="Inbound_rules_sg" alt="Inbound_rules_sg">
+  <img src="./Cluster & Architecture Snapshots/inbound_rules_sg.png" width="600" title="Inbound_rules_sg" alt="Inbound_rules_sg">
   </p>
 
 #### Enable EBS CSI Addon
