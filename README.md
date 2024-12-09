@@ -117,7 +117,7 @@ Follow these steps to deploy your microservice application:
 1. enable addon `ebs csi` this is for enabling pvcs once cluster is created
 
 <p align="center">
-  <img src="./Project documentation/ebs_addon.png" width="600" title="ebs_addon" alt="ebs_addon">
+  <img src="./Cluster & Architecture Snapshots/ebs_addon.png" width="600" title="ebs_addon" alt="ebs_addon">
   </p>
 
 #### Deploying your application on EKS Cluster
